@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'dashboard',
+  selector: 'register-form',
   template: `
     <div>
-      <h2>Dashboard</h2>
+      <h2>register-form</h2>
     </div>
   `
 })
-export class DashboardComponent {}
+export class RegisterFormComponent {}

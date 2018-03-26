@@ -7,10 +7,10 @@ import { AppComponent } from './app.component';
 
 // routes
 export const ROUTES: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
-  { path: 'dashboard', loadChildren: '../dashboard/dashboard.module#DashboardModule' },
-  { path: 'settings', loadChildren: '../settings/settings.module#SettingsModule' },
-  { path: 'reports', loadChildren: '../reports/reports.module#ReportsModule' }
+  { path: '', pathMatch: 'full', redirectTo: 'login' },
+  { path: 'login', loadChildren: '../login/login.module#LoginModule' },
+  { path: 'register', loadChildren: '../register/register.module#RegisterModule' },
+  { path: 'registerForm', loadChildren: '../register-form/register-form.module#RegisterFormModule' }
 ];
 
 @NgModule({

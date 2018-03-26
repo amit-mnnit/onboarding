@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // containers
-import { ReportsComponent } from './reports.component';
+import { RegisterFormComponent } from './register-form.component';
 
 // routes
 export const ROUTES: Routes = [
-  { path: '', component: ReportsComponent }
+  { path: '', component: RegisterFormComponent }
 ];
 
 @NgModule({
@@ -14,7 +14,7 @@ export const ROUTES: Routes = [
     RouterModule.forChild(ROUTES)
   ],
   declarations: [
-    ReportsComponent
+    RegisterFormComponent
   ]
 })
-export class ReportsModule {}
+export class RegisterFormModule {}

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'settings',
+  selector: 'login',
   template: `
     <div>
-      <h2>Settings</h2>
+      <h2>Login</h2>
     </div>
   `
 })
-export class SettingsComponent {}
+export class LoginComponent {}
